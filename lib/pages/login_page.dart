@@ -1,10 +1,14 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, use_function_type_syntax_for_parameters
+
 import 'package:flutter/material.dart';
 import 'package:db_project/components/my_button.dart';
 import 'package:db_project/components/my_textfield.dart';
 import 'package:db_project/components/square_tile.dart';
+//import 'package:cloud_firestore/cloud_firestore.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
+  //var db = FirebaseFirestore.instance;
 
   // text editing controllers
   final usernameController = TextEditingController();
@@ -13,36 +17,45 @@ class LoginPage extends StatelessWidget {
   // sign user in method
   void signUserIn() {}
 
+  //void createdata() async {
+  //await db.collection('user').doc('billu').set({'name': 'Bilawal Mughal'});
+  //}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      body: SafeArea(
+      body: Align(
+        alignment: Alignment.topCenter,
         child: Center(
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 50),
+                const SizedBox(height: 10),
 
-                // logo
-                const Icon(
-                  Icons.lock,
-                  size: 100,
+                Image.asset(
+                  'lib/images/buildings.png',
+                  width: 200,
+                  height: 200,
                 ),
-
-                const SizedBox(height: 50),
 
                 // welcome to HostelHub'!
-                Text(
-                  'Welcome to HostelHub',
-                  style: TextStyle(
-                    color: Colors.grey[700],
-                    fontSize: 16,
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const SizedBox(width: 20),
+                    const Text(
+                      'Welcome to \n Hostel Hub',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 42,
+                      ),
+                    ),
+                  ],
                 ),
 
-                const SizedBox(height: 25),
+                const SizedBox(height: 10),
 
                 // username textfield
                 MyTextField(
@@ -129,7 +142,7 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
 
-                const SizedBox(height: 50),
+                const SizedBox(height: 25),
 
                 // not a member? register now
                 Row(
