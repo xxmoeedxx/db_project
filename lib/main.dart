@@ -1,4 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
+
+import 'pages/homepage.dart';
 import 'package:flutter/material.dart';
 import 'pages/login_page.dart';
 // Import the generated file
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: HomeScreen(),
     );
   }
 }

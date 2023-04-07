@@ -44,44 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAFJ0Lcx9zjTc0lhNPKiYIkzLCXfeLMmCU',
-    appId: '1:887594861542:web:f734ce1ca1af6d088d0c27',
-    messagingSenderId: '887594861542',
-    projectId: 'flutter-login-8fd44',
-    authDomain: 'flutter-login-8fd44.firebaseapp.com',
-    databaseURL: 'https://flutter-login-8fd44-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-login-8fd44.appspot.com',
-    measurementId: 'G-FMVWKN5XJZ',
+    apiKey: 'AIzaSyADAKA9OKy7QgmSuMcvJn5Q7hWT5QCfeB4',
+    appId: '1:434874035165:web:ea791a15656c32d2022434',
+    messagingSenderId: '434874035165',
+    projectId: 'hostel-hub69',
+    authDomain: 'hostel-hub69.firebaseapp.com',
+    storageBucket: 'hostel-hub69.appspot.com',
+    measurementId: 'G-JX1H8B9BYQ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB0-1_CDEhzF-KJmWBJzDLVOxGw-V6AvP4',
-    appId: '1:887594861542:android:6719e6af31ffe6688d0c27',
-    messagingSenderId: '887594861542',
-    projectId: 'flutter-login-8fd44',
-    databaseURL: 'https://flutter-login-8fd44-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-login-8fd44.appspot.com',
+    apiKey: 'AIzaSyCbjepohvOGPaSZ4nhDrsaUAZZnufwwdQE',
+    appId: '1:434874035165:android:680983b568734d49022434',
+    messagingSenderId: '434874035165',
+    projectId: 'hostel-hub69',
+    storageBucket: 'hostel-hub69.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD5dEYsbBE_3bdh4SLe1IF-4z-iP7ZOEoA',
-    appId: '1:887594861542:ios:a37b33908dd023118d0c27',
-    messagingSenderId: '887594861542',
-    projectId: 'flutter-login-8fd44',
-    databaseURL: 'https://flutter-login-8fd44-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-login-8fd44.appspot.com',
-    iosClientId: '887594861542-mj7lu6abhde60iiaq39cv8si7ja0l2ns.apps.googleusercontent.com',
+    apiKey: 'AIzaSyACKded3qhFqXkjxugorCgxlUthVWhqCQI',
+    appId: '1:434874035165:ios:3e33e364fb029ceb022434',
+    messagingSenderId: '434874035165',
+    projectId: 'hostel-hub69',
+    storageBucket: 'hostel-hub69.appspot.com',
+    iosClientId: '434874035165-t4cnq32nufn0ujcmr1m03pjndubc9k91.apps.googleusercontent.com',
     iosBundleId: 'com.example.dbProject',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD5dEYsbBE_3bdh4SLe1IF-4z-iP7ZOEoA',
-    appId: '1:887594861542:ios:a37b33908dd023118d0c27',
-    messagingSenderId: '887594861542',
-    projectId: 'flutter-login-8fd44',
-    databaseURL: 'https://flutter-login-8fd44-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-login-8fd44.appspot.com',
-    iosClientId: '887594861542-mj7lu6abhde60iiaq39cv8si7ja0l2ns.apps.googleusercontent.com',
+    apiKey: 'AIzaSyACKded3qhFqXkjxugorCgxlUthVWhqCQI',
+    appId: '1:434874035165:ios:3e33e364fb029ceb022434',
+    messagingSenderId: '434874035165',
+    projectId: 'hostel-hub69',
+    storageBucket: 'hostel-hub69.appspot.com',
+    iosClientId: '434874035165-t4cnq32nufn0ujcmr1m03pjndubc9k91.apps.googleusercontent.com',
     iosBundleId: 'com.example.dbProject',
   );
 }
